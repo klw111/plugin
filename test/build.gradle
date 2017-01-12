@@ -9,7 +9,7 @@ dependencies {
 repositories {
     mavenCentral()
 }
-group='cn.edu.zafu.gradle.plugin'
+group='cn.edu.zafu.gradle.plugin1'
 version='1.0.1'
 
 uploadArchives {

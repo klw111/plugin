@@ -1,7 +1,7 @@
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'maven-publish'
 
-def projectName = "testPlugin"
+def projectName = "test"
 def mavenDesc = 'your desc'
 
 

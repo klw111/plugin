@@ -2,7 +2,27 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>cn.edu.zafu.gradle.plugin</groupId>
+  <groupId>cn.edu.zafu.gradle.plugin1</groupId>
   <artifactId>test</artifactId>
   <version>1.0.1</version>
+  <name>test</name>
+  <url>https://github.com/klw111</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kencent</id>
+      <name>klw03</name>
+      <email>wangkailei03@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/klw111/plugin.git</connection>
+    <developerConnection>https://github.com/klw111/plugin.git</developerConnection>
+    <url>https://github.com/klw111</url>
+  </scm>
 </project>

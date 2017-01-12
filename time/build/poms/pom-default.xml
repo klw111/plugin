@@ -5,24 +5,4 @@
   <groupId>cn.edu.zafu.gradle.plugin</groupId>
   <artifactId>time</artifactId>
   <version>1.0.0</version>
-  <name>testPlugin</name>
-  <url>https://github.com/klw111</url>
-  <licenses>
-    <license>
-      <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
-  <developers>
-    <developer>
-      <id>kencent</id>
-      <name>klw03</name>
-      <email>wangkailei03@gmail.com</email>
-    </developer>
-  </developers>
-  <scm>
-    <connection>https://github.com/klw111/plugin.git</connection>
-    <developerConnection>https://github.com/klw111/plugin.git</developerConnection>
-    <url>https://github.com/klw111</url>
-  </scm>
 </project>
