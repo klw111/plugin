@@ -20,3 +20,5 @@ uploadArchives {
     }
 }
 
+apply from: '../bintray.gradle'
+
