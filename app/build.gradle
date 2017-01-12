@@ -43,7 +43,7 @@ buildscript {
 
 
 
-//apply plugin: 'plugin.time'
+/*//apply plugin: 'plugin.time'
 apply plugin: 'plugin.test'
 
 pluginExt {
@@ -54,4 +54,4 @@ pluginExt {
         nestParam2='app nestParam2'
 
     }
-}
+}*/

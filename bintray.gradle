@@ -1,19 +1,21 @@
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'maven-publish'
 
-def projectName = "timePlugin"
+def projectName = "testPlugin"
 def mavenDesc = 'your desc'
-def baseUrl = 'https://github.com/bintray/examples'
+
+
+def baseUrl = 'https://github.com/klw111'
 def siteUrl = baseUrl
-def gitUrl = 'https://github.com/bintray/bintray-examples.git'
-def issueUrl =  'https://github.com/dodola/RocooFix/issues'
+def gitUrl = "${baseUrl}/plugin.git"
+def issueUrl =  "${baseUrl}/plugin/issues"
 
 def licenseIds = ['Apache-2.0']
 def licenseNames = ['The Apache Software License, Version 2.0']
 def licenseUrls = ['http://www.apache.org/licenses/LICENSE-2.0.txt']
 def inception = '2016'
 
-def username = 'klw110'
+def username = 'klw03'
 
 install {
     repositories {
@@ -21,16 +23,9 @@ install {
             pom.project {
                 // Description
                 name projectName
-                description mavenDesc
                 url siteUrl
 
-                // Archive
-                groupId project.group
-                artifactId archivesBaseName
-                version project.version
-
                 // License
-                inceptionYear inception
                 licenses {
                     licenseNames.eachWithIndex { ln, li ->
                         license {
@@ -41,7 +36,9 @@ install {
                 }
                 developers {
                     developer {
+                        id 'kencent'
                         name username
+                        email 'wangkailei03@gmail.com'
                     }
                 }
                 scm {

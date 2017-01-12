@@ -7,7 +7,7 @@ dependencies {
 }
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 group='cn.edu.zafu.gradle.plugin'
 version='1.0.0'
